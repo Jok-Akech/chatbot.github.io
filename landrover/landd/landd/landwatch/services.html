@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Website</title>
+  <style>
+    /* Top Navigation Bar */
+    .topnav {
+      background-color: white;
+      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100px;
+      padding: 0 20px;
+    }
+
+    .topnav a {
+      color: green;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .topnav a:hover {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    .topnav a.active {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    body {
+
+      width: 100%;
+      height: 100%;
+      font-family: 'sans-serif', sans-serif;
+    }
+
+    /* Body with 3 equal rows */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      height: 33.33%;
+      background-color: green;
+      padding: 20px;
+    }
+
+    .col {
+      flex-basis: 30%;
+      /* height: 100%; */
+      background-color: darkgreen;
+      border: 1px solid darkgreen;
+      padding: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      transition: all 0.3s ease-in-out;
+    }
+
+    a:hover {
+      color: #4CAF50;
+    }
+
+    .topnav img {
+      max-height: 50px;
+      max-width: 100%;
+    }
+
+    .link-list {
+      justify-content: space-between;
+      list-style: none;
+      padding: 0;
+    }
+
+    .link-item {
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Top Navigation Bar -->
+  <div class="topnav">
+  <img src="img/logo1.png" style=" width: 200px;" alt="Company Logo">
+    <a href="home.html">Home</a>
+    <a  href="services.html"class="active">Services</a>
+    <a href="about.html">About Us</a>
+    <a href="#about">FAQs</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+
+  <div style="background-image: url('img/green.jpg');">
+     
+  
+  <!-- Body with 3 equal rows -->
+  <div class="row">
+    <div class="col" style="height:700px;">
+      <ul class="link-list">
+        <li class="link-item"><a href="#"><img src="img/avt-removebg-preview.png" style="width:50px;border-radius: 50%; height:50px; margin: 10px;" alt="Company Logo"></a><a href="#" style="color:white; font-size: 18px; padding: 15px;background-color:green ;">Douglas Onencan</a></li>
+        <li class="link-item"><a href="#"><img src="img/dollar.jpg" style="width:50px;border-radius: 50%; height:50px; margin: 10px;" alt="Company Logo"></a><a href="#" style="color:white; font-size: 18px;padding: 15px;background-color:green">My Subscription</a></li>
+        <li class="link-item"><a href="#"><img src="img/doc.png" style="width:50px;border-radius: 50%; height:50px; margin: 10px;" alt="Company Logo"></a><a href="#" style="color:white; font-size: 18px;padding: 15px;background-color:green">My Land Title</a></li>
+        <li class="link-item"><a href="#"><img src="img/address-removebg-preview.png" style="width:50px;border-radius: 50%; height:50px; margin: 10px;" alt="Company Logo"></a><a href="#" style="color:white; font-size: 18px;padding: 15px;background-color:green">My Land Boundary</a></li>
+        <li class="link-item"><a href="#"><img src="img/alert-removebg-preview.png" style="width:50px;border-radius: 50%; height:50px; margin: 10px;" alt="Company Logo"></a><a href="#" style="color:white; font-size: 18px;padding: 15px;background-color:green">Report Land Fraud</a></li>
+      </ul>
+
+    </div>
+    <div class="col" style="height:700px; ">
+      <div class="col link-item">
+        <input type="text" name="" style="width: 80%; height:40px; border: 7px solid green; margin-right:10px;" id="">
+        <img src="img/magil-removebg-preview.png" style="width: 40px;
+         background-color:#f2f2f2;align-content:center; border: 7px solid green; height:40px;" alt="">
+      </div>
+      <div class="col" style="border: 7px solid green;">
+        <h2 style="color:white;">Land Survey and Mapping.</h2>
+        <p style="color:white;">LandWatch has a team of expert surveyors with a state of the art technologies for the most accurate data collection 
+</p>
+      </div>
+      <div class="col" style="border: 7px solid green;">
+        <h2 style="color:white;">The Boundary Stone.</h2>
+        <p style="color:white;">LandWatch provides digitalized boundary stone devices that store the most accurate information about your land right at your premises
+</p>
+      </div>
+      <div class="col" style="border: 7px solid green;">
+        <h2 style="color:white;">Property appraisal.</h2>
+        <p style="color:white;">LandWatch evaluates and prices your propetry so no body cheats you
+.</p>
+      </div>
+    </div>
+
+    <div class="col" style="height:700px;">
+      <!-- <div class="col"> -->
+      <img src="img/bell-removebg-preview.png" style="width: 100px; border-radius: 50%; background-color:#f2f2f2;
+      align-content:center; height:100px;" alt="">
+      <!-- </div> -->
+      <div class="center" style="  height: 100px;
+  width: 100px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  margin: top 60px;
+  border-radius: 50%; 
+  background-color:green;">
+        <p style="font-size: 30px; color:white;"> Sell</p>
+      </div>
+      <!-- <div class="col"> -->
+
+      <!-- </div> -->
+      <div style="  width:100%;
+    position: absolute;
+    bottom:0;
+    float: right;">
+        <img src="img/chat_icon-removebg-preview.png" style="width: 100px; border-radius: 50%;
+       position: relative;
+    display: block;
+    float: center; background-color:green; height:100px;" alt="">
+      </div>
+    </div>
+  </div>
+  </div>
